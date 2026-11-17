@@ -75,17 +75,17 @@ Racconto completo: [docs/CASE_STUDIES.md](docs/CASE_STUDIES.md).
   trader seguiti dal vivo, sono state tutte chiuse da regole scritte prima dei numeri.
 - **Le regole insegnate non battono il caso.** Le zone vere arrivano all'obiettivo quanto quelle finte
   (per esempio 17,8% contro 15,6%, p = 0,24; fuori da ogni zona: 22,3%).
-- **«90-100% di vincite» contava le giornate, non le operazioni.** Il 92% erano 12 giornate positive su
-  13; il diario per operazione diceva 72%. Un «21% in un mese» era la somma delle percentuali di tre conti.
-- **Il guadagno per operazione cala** nel solo diario onesto che abbiamo trovato: circa +1,4 R, +0,7 R,
-  +0,2 R in sei settimane.
+- **«90%+ di vincite» contava le giornate in positivo, non le operazioni.** Il diario per operazione era
+  nettamente più basso. Una percentuale mensile era la somma delle percentuali di più conti.
+- **Il guadagno per operazione cala** nel solo diario onesto che abbiamo trovato: un risultato per
+  operazione che si riduce nel giro di poche settimane.
 - **Insegnato in un modo, operato in un altro.** Dal vivo: altri strumenti, altri orari, stop più larghi,
   una conferma d'ingresso che nelle lezioni non c'è.
-- **I risultati dal vivo:** un periodo +13 R su 36 operazioni; il periodo dopo circa zero su 41.
-- **Verso giusto, stop sbagliato.** Tre operazioni dal vivo su tre chiuse in stop, mentre l'obiettivo è
-  arrivato più tardi in tutte: lo stop stava dentro il rumore normale, appena sotto massimi non ancora presi.
+- **I risultati dal vivo:** un periodo nettamente positivo, il successivo circa a zero.
+- **Verso giusto, stop sbagliato.** Alcune operazioni dal vivo in una sola sessione, tutte chiuse in stop, mentre l'obiettivo è
+  arrivato più tardi in tutte: lo stop stava dentro il rumore normale, appena oltre massimi non ancora presi.
 - **Gli esempi sono scelti dopo.** Nelle lezioni non si vedono quasi mai perdite vere.
-- **Promesse e realtà.** 15-20 operazioni a settimana promesse; zero operazioni in sei ore di diretta.
+- **Promesse e realtà.** diverse operazioni a settimana promesse; nessuna eseguita in un'intera giornata di diretta.
 - **Uno stop più largo migliora tutto, anche i livelli a caso.** Ha alzato la quota di obiettivi presi da
   circa 18% a circa 30%, allo stesso modo sui livelli finti e in altri orari: il «posto» del trader non c'entrava.
 

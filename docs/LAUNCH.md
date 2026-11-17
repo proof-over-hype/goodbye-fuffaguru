@@ -64,10 +64,10 @@ Suggested times are for the community's main audience; avoid weekends for techni
   >   zones 15.6% (p = 0.24), trades outside any zone 22.3%.
   > - A wider stop raised the hit rate from ~18% to ~30%... identically on fake levels and at
   >   other hours. Geometry, not the guru's "place".
-  > - Live, one scalper's 3 trades were all stopped out, yet the direction was right in all 3: the
-  >   stops sat below untaken highs (tick data).
-  > - A "92% win rate" was 12 green days out of 13; the trade-level journal said 72%, with the
-  >   result per trade falling from +1.4 R to +0.2 R in six weeks.
+  > - Live, a day trader's trades in one session were all stopped out, yet the direction was right in
+  >   all of them: the stops sat just beyond untaken highs (tick data).
+  > - A "90%+ win rate" counted green days, not trades; the trade-level journal was markedly lower,
+  >   with the result per trade shrinking over a few weeks.
   >
   > The tool (MIT, Python): trade verification on your own bars, preregistration, null tests,
   > a markdown "Reality Check". There's a synthetic example where the best of 48 variants makes
@@ -102,10 +102,10 @@ Suggested times are for the community's main audience; avoid weekends for techni
 - **Text:**
 
   > No names, just what the numbers looked like:
-  > - "90-100% win rate" -> counted by days, not trades. Trade-level journal: 72%.
-  > - "21% this month" -> percentages of three accounts added together (about 4.5% on the total).
-  > - Lessons showed 44 real trades with 2 losses; in the trader's own journal 28% of trades were not wins.
-  > - With 6-15 pip stops and 1:1 targets, spread and commission ate from 7% to over 40% of the risk, depending on the pair.
+  > - "90%+ win rate" -> counted by days, not trades; the trade-level journal was markedly lower.
+  > - A monthly percentage -> the sum of several accounts' percentages.
+  > - Lesson examples were almost all winners; in the trader's own journal far more trades were not wins.
+  > - With very tight stops and 1:1 targets, spread and commission ate a large share of the risk, depending on the pair.
   > - Live trading differed from the lessons (other instruments, other hours, wider stops).
   >
   > I put the checklist and the tools in an open-source repo (MIT): verify the trades on your own data,
@@ -119,12 +119,12 @@ Suggested times are for the community's main audience; avoid weekends for techni
 - **Title:** I watched day traders' live streams tick by tick. The most common way they lost: right direction, wrong stop
 - **Text:**
 
-  > In one live session, 3 real trades, all stopped out by a tick or two. Replayed on tick data, the
-  > target was reached later in every one of them. The stops sat just under untaken highs; before the
-  > target the price went against them by 1.5-4.5x the stop. The only clean setup of the day (which
+  > In one live session, a handful of real trades, all stopped out by a small margin. Replayed on tick
+  > data, the target was reached later in every one of them. The stops sat just beyond untaken highs;
+  > before the target the price went against them by several times the stop. The only clean setup of the day (which
   > the trader skipped) came right *after* those highs were swept.
   >
-  > Other things we saw: a trader promising 15-20 trades a week took zero in six hours of streaming;
+  > Other things we saw: a trader promising several trades a week took none in a full day of live streaming;
   > another taught "limit order at first touch" but traded with a confirmation live, and the taught
   > entry was the worst performer.
   >
@@ -144,9 +144,10 @@ Suggested times are for the community's main audience; avoid weekends for techni
   > guardare i risultati, poi confrontata con ingressi a caso negli stessi minuti, con livelli finti e
   > con i costi veri.
   >
-  > In breve: nessuna ha retto. Un «92% di operazioni vincenti» era in realtà 12 giornate positive su
-  > 13 (il diario per operazione diceva 72%); un «21% in un mese» era la somma delle percentuali di tre
-  > conti; uno prometteva 15-20 operazioni a settimana e in sei ore di diretta ne ha fatte zero.
+  > In breve: nessuna ha retto. Un «90%+ di operazioni vincenti» contava in realtà le giornate in
+  > positivo (il diario per operazione era molto più basso); una percentuale mensile era la somma delle
+  > percentuali di più conti; uno prometteva diverse operazioni a settimana e in un'intera giornata di
+  > diretta non ne ha fatta nessuna.
   >
   > Ho raccolto metodo, checklist e strumenti in un progetto open source (licenza MIT). Non è
   > consulenza finanziaria e non accusa nessuno: dice solo cosa danno le regole messe alla prova.

@@ -1,15 +1,14 @@
 ---
 name: New anonymous case
 about: Share the results of a Reality Check you ran (anonymous, data only)
-title: "[case] <market> - <style> (e.g. gold - order flow scalping)"
+title: "[case] <market> - <style> (e.g. futures - order flow day trading)"
 labels: case-study
 ---
 
 <!--
 READ FIRST - anonymity and legal safety:
 - NO names, handles, channel names, links to the person's profiles, exact dates, recognisable quotes,
-  screenshots, frames or transcripts. Describe the trader generically ("an order-flow scalper on gold futures
-  streaming on a short-video platform").
+  screenshots, frames or transcripts. Describe the trader generically ("a futures order-flow day trader").
 - Data only, no judgement of the person: "the rules as taught, tested, give X".
 - Do not attach captured content of others. Numbers and conclusions only.
 -->

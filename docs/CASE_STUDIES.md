@@ -3,7 +3,8 @@
 **How to read this page.** These are summaries of what *rules as taught* and *trades as shown* gave
 when we tested them. They are not judgements of people: we do not know anyone's intentions, and a
 mechanical test of a method measures our written translation of it, which may miss a discretionary
-skill. Names, accounts, dates, quotes and images are deliberately left out. Numbers are rounded.
+skill. Names, accounts, dates, quotes and images are deliberately left out, and details have been
+generalized so that no individual can be identified.
 
 ## The wider picture
 
@@ -26,65 +27,67 @@ skill. Names, accounts, dates, quotes and images are deliberately left out. Numb
 
 ## Cases followed live
 
-### Trader A - order-flow scalper on gold futures (short-video live streams)
+*Details have been generalized so that no individual can be identified.*
+
+### Trader A - a futures order-flow day trader
 - **Teaches:** wait at a zone drawn in advance; enter when aggressive traders push hard but price
   does not follow; very tight stop just beyond the zone; target about 2R on a profile level.
-- **Shows:** a dozen short clips, almost all winners (chosen by the author).
-- **Live, replay of a past session chosen by the author:** 3 trades: one loss, one breakeven, one
-  win that was drawn after the next candle was already visible.
-- **Live, real session:** 3 trades, all stopped out. Replayed tick by tick, **the direction was right
-  in all of them**: the target was reached later the same day. The stops (about 1-2.5 dollars on gold)
-  sat right below untaken highs; the adverse move before the target was 1.5-4.5 times the stop.
-  The only setup that would have worked (skipped) entered just *after* those highs were swept.
-- **Tested rules:** across several preregistered recipes the order-flow trigger added about
-  +0.01 R over the same zones without it, with the opposite sign in an earlier period.
+- **Shows:** short clips, almost all winners (chosen by the author).
+- **Live, replay of a past session chosen by the author:** a handful of trades with mixed results, one
+  of them drawn after the next candle was already visible.
+- **Live, real session:** a handful of trades in one session, all stopped out with stops tighter than
+  the normal noise. Replayed tick by tick, **the direction was right in all of them**: the target was
+  reached later the same day, after an adverse move several times larger than the stop. The stops sat
+  right beyond untaken highs. The only setup that would have worked (skipped) entered just *after*
+  those highs were swept.
+- **Tested rules:** across several preregistered recipes the order-flow trigger added almost nothing
+  over the same zones without it (about +0.01 R), with the opposite sign in an earlier period.
 - **Lesson:** the author says order flow is a tool, not a strategy. The data agree.
 
-### Trader B - multi-timeframe "smart money" day trader on gold (short-video live streams)
-- **Teaches:** four timeframes aligned, a sell zone from the higher timeframes, a change of structure
-  on the 1-minute chart, entry on a 50-75% retracement, target the day's low, a cap on stop size.
-- **Claims:** 15-20 trades a week. **Observed:** zero trades in about six hours of live streaming
-  in one day (and none the evening before).
-- **Honest point:** his price levels matched our data within a few cents, and the path he drew
-  happened almost exactly, only twice as slowly. He passed on it because the stop exceeded his cap.
-- **Tested rules:** the faithful recipe produced 25 trades in the development period, below the
-  minimum written in advance: closed. Relaxed to two timeframes: 73 trades; real zones hit the target
-  17.8% of the time, fake zones 15.6% (p = 0.24), and setups *outside* any zone 22.3%. With a wider
-  stop: 468 trades, real zones 30.1% vs fake 29.1% (p = 0.32).
+### Trader B - a multi-timeframe price-action day trader
+- **Teaches:** several timeframes aligned, a zone from the higher timeframes, a change of structure
+  on a low timeframe, entry on a partial retracement, a cap on stop size.
+- **Claims:** several trades a week. **Observed:** none in a full day of live streaming.
+- **Honest point:** his price levels matched our data closely, and the path he drew happened almost
+  exactly, only more slowly. He passed on it because the stop exceeded his own cap.
+- **Tested rules:** the faithful recipe produced fewer trades than the minimum written in advance:
+  closed. Relaxed, real zones hit the target about as often as fake zones (p = 0.24), and setups
+  *outside* any zone did a little better. With a wider stop: 468 trades, real zones 30.1% vs fake
+  29.1% (p = 0.32).
 - **Lesson:** the zones did not matter; the geometry of the stop did.
 
-### Trader C - "smart money / ICT" educator on a video platform (US indices, gold, FX)
-- **Teaches:** the last candle before the impulse that breaks structure is the zone; limit order at
-  first touch, no confirmation; stop 40% of the candle beyond it; 1:1 with breakeven halfway.
-- **Claims:** 90-100% win rate. The 92% is **12 positive days out of 13** (29 trades); a "100%"
-  account had two stop losses in his own words; a "21% in a month" adds up the percentages of three
-  accounts (about 4.5% on the total capital). His own journal: **72% winning trades** on 50.
-- **Journal result per trade, falling:** about +1.4 R, then +0.7 R, then about +0.2 R in six weeks.
-- **In lessons:** 44 real trades shown, only 2 losses. Backtests done by scrolling the chart, with
-  some zones redrawn and some night losses removed. The zone-selection filters "are in the mentorship".
-- **Live, he trades differently from how he teaches:** mostly US index CFDs/futures at the US open,
-  orders placed ahead of the zone, stops beyond the whole zone or the liquidity behind it, an
-  entry confirmation that is not in the lessons. The "touch" entries taught in the lessons did worst.
-- **Live results:** one period, **36 closed trades, 64% won, about +13 R** (almost all from one
-  index; gold negative). The following period, **41 closed trades, 41% won, about +0.6 R** in total,
-  all from a single day.
-- **Tested rules:** his most original zone filter made the zones *worse* (-0.9 points); real zones
-  vs fake zones +0.4 points (p = 0.40). The US-open version added +0.04 R over the same time window
-  traded at random, below the +0.10 R written in advance; with a wider stop it did better, but the
-  same recipe shifted to another hour did almost as well, and the later year was negative.
+### Trader C - a smart-money-concepts educator
+- **Teaches:** the last candle before a structure-breaking impulse is the zone; limit order at first
+  touch, no confirmation; stop beyond the candle; 1:1 with breakeven halfway.
+- **Claims:** a 90%+ win rate. It turned out to count green days, not trades; the trade-level journal
+  was markedly lower. A headline monthly percentage was the sum of several accounts' percentages.
+  A "100%" account had stop losses by his own admission.
+- **Journal result per trade:** a shrinking per-trade result over a few weeks.
+- **In lessons:** the examples shown were almost all winners, while the trader's own journal showed
+  far more non-winning trades. Backtests were done by scrolling the chart, with some zones redrawn and
+  some losing trades left out. The zone-selection filters "are in the mentorship".
+- **Live, he trades differently from how he teaches:** other instruments and hours, orders placed
+  ahead of the zone, wider stops, an entry confirmation that is not in the lessons. The "touch"
+  entries taught in the lessons did worst.
+- **Live results:** one period clearly positive, the following period about flat, with the gain
+  concentrated in very few trades.
+- **Tested rules:** his most original zone filter made the zones *worse*; real zones vs fake zones
+  +0.4 points (p = 0.40). The main recipe added +0.04 R over the same time window traded at random,
+  below the +0.10 R written in advance; with a wider stop it did better, but the same recipe shifted
+  to another hour did almost as well, and the later year was negative.
 - **Lesson:** the honest journal is the most valuable thing he published, and it shows a shrinking edge.
 
-### Trader D - order-flow / volume-profile trader on US index futures (short-video and video platforms)
-- **Teaches:** value area prepared before the week; trade the edges in balance, the breakout and
-  retest out of balance; confirmation from absorption; stop at the invalidation point.
-- **Positive point:** among dozens of video examples he also shows losses, including three in a row.
-- **Live:** one trade, opened before the stream, stop at breakeven; the target was missed by a small
-  margin and the exit was not shown. A second trade was described only after the fact.
-- **Tested rules:** the value-area recipe gave 30 trades in the development period, below the
-  minimum: closed. In a basket of recipes it was the only one with a positive gross result
+### Trader D - a volume-profile trader
+- **Teaches:** value area prepared in advance; trade the edges in balance, the breakout and retest
+  out of balance; confirmation from absorption; stop at the invalidation point.
+- **Positive point:** among many examples he also shows losses, including consecutive ones.
+- **Live:** one trade, opened before the stream; the target was missed by a small margin and the exit
+  was not shown. A second trade was described only after the fact.
+- **Tested rules:** the value-area recipe gave fewer trades than the minimum in the development
+  period: closed. In a basket of recipes it was the only one with a positive gross result
   (+0.40 R on about 100 trades), but very dispersed and negative in an earlier period.
-- **Lesson:** his overnight short (entered right after a sweep of the night's high, stop on that high)
-  has the same shape as Trader A's only good setup. One shape, two cases: an idea, not a result.
+- **Lesson:** an overnight short entered right after a sweep of a prior high, with the stop on that
+  high, has the same shape as Trader A's only good setup. One shape, two cases: an idea, not a result.
 
 ## What these cases have in common
 

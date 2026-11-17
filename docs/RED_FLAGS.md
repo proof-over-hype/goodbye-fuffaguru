@@ -5,13 +5,13 @@ alone proves nothing. Several together mean: do not pay, do not copy, ask for ve
 
 | # | What you see | Why it matters | How to check |
 |---|---|---|---|
-| 1 | **"90-100% win rate"** | With realistic stops and costs, very high win rates usually come from counting something else, or from tiny targets and huge losses. | Ask: per trade or per day? What is the average win vs the average loss in R? |
-| 2 | **Win rate counted by days** | 12 positive days out of 13 can hide many losing trades; breakeven days get sold as "no losing day". | `metrics.win_rate_by_days`: compare trade win rate with day win rate. |
-| 3 | **Only winners in the lessons** | Examples are chosen after the outcome is known. One seller showed 44 real trades with only 2 losses, while 28% of the trades in his own journal were not wins (16% losses, 12% breakeven). | Count taken trades in *full* sessions, never in clips. |
+| 1 | **"90%+ win rate"** | With realistic stops and costs, very high win rates usually come from counting something else, or from tiny targets and huge losses. | Ask: per trade or per day? What is the average win vs the average loss in R? |
+| 2 | **Win rate counted by days** | A high share of positive days can hide many losing trades; breakeven days get sold as "no losing day". | `metrics.win_rate_by_days`: compare trade win rate with day win rate. |
+| 3 | **Only winners in the lessons** | Examples are chosen after the outcome is known. Lesson examples were almost all winners, while the trader's own journal showed far more non-winning trades (losses and breakeven). | Count taken trades in *full* sessions, never in clips. |
 | 4 | **Setups drawn after the fact** | A position box drawn once the next candle is visible is not a trade. | Check the timestamps: was the box on screen before the move? |
-| 5 | **Percentages summed across accounts** | "21% this month" was the sum of three accounts' percentages: about 4.5% on the total. | Ask for the result on the total capital, in money. |
-| 6 | **Falling result per trade** | One honest journal went from +1.4 R to +0.7 R to +0.2 R per trade in six weeks. | `metrics.expectancy_by_period` on their own journal. |
-| 7 | **Promised frequency vs observed** | "15-20 trades a week", then zero trades in six hours of live streaming. | Watch full live sessions, count what is actually executed. |
+| 5 | **Percentages summed across accounts** | A monthly percentage was the sum of several accounts' percentages, far less on the total capital. | Ask for the result on the total capital, in money. |
+| 6 | **Falling result per trade** | One honest journal showed a shrinking per-trade result over a few weeks. | `metrics.expectancy_by_period` on their own journal. |
+| 7 | **Promised frequency vs observed** | Several trades a week promised; none taken in a full day of live streaming. | Watch full live sessions, count what is actually executed. |
 | 8 | **Teaches one thing, does another live** | Different instrument, hours, stop size or entry trigger live than in the lessons. | Compare the extracted rules with the live trades (status `taken`). |
 | 9 | **"The real filters are in the course"** | The decisive part is exactly the part you cannot check. | Ask for a track record that already includes those filters. |
 | 10 | **Trades opened before the stream, exits never shown** | The result is told, not seen. | Count only trades with entry *and* exit on screen. |

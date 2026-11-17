@@ -5,9 +5,9 @@ tick by tick, and in journals. Any recipe you test should say, before the number
 it avoids and how (the `rules_to_recipe.md` prompt asks for it).
 
 ### A1. Stop inside the noise
-Several live short trades were stopped out by one or two ticks, with stops a little beyond the last
+Several live short trades were stopped out by a tiny margin, with stops a little beyond the last
 candle and not beyond the structure. In every one of them the direction was right: the target was
-reached later the same day. Before the target, the price moved against the trade by about 1.5 to 4.5
+reached later the same day. Before the target, the price moved against the trade by several
 times the stop distance.
 **Lesson:** put the stop beyond the normal adverse noise, not just beyond the last candle.
 
@@ -19,7 +19,7 @@ a candle swept those highs and closed back below; its worst adverse move was tin
 until it is taken or place the stop beyond it.
 
 ### A3. Stop just beyond the most traded price
-Two stops sat a few cents beyond the session's point of control, a price the market kept revisiting.
+Two stops sat just beyond the session's point of control, a price the market kept revisiting.
 **Lesson:** do not park a stop right beyond a level where price keeps returning.
 
 ### A4. Against a strong move
@@ -33,7 +33,7 @@ winning trade had a modest one. A "dirty market" reading did not separate winner
 **Lesson:** do not use the size of an order-flow burst as the main filter.
 
 ### A6. A hard cap on stop size throws away the right trades
-A trader refused setups whose stop exceeded a fixed cap, even at 1:6 reward. The move he had drawn
+A trader refused setups whose stop exceeded a fixed cap, even with a generous reward. The move he had drawn
 happened almost exactly, only slower. He took no trade that day.
 **Lesson:** a rigid stop cap loses the right moves; a wider stop with a smaller position keeps the
 risk the same.

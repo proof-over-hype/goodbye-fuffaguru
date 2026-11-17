@@ -94,7 +94,7 @@ Run all of these, and report all of them, whatever they say:
 | **Random direction at the same instants** | Same entry times, same stop and target distances, long or short by coin flip. Does the trader's *direction* call add anything? |
 | **Fake levels / zones** | The same recipe on levels shifted at random by 0.5-3 ATR. Does the trader's *place* matter? |
 | **Confirmation period** | The frozen recipe on later data it was never tuned on. |
-| **Related instrument** | Same recipe on a cousin (gold spot vs gold futures, silver; Nasdaq vs S&P). A real mechanism should not flip sign. |
+| **Related instrument** | Same recipe on a cousin (spot vs futures of the same asset, a related metal; one equity index vs another). A real mechanism should not flip sign. |
 | **Without the key filter** | The same recipe minus its "secret ingredient". If nothing changes, the ingredient is decoration. |
 | **Time window alone** | If the trader trades fixed hours: random direction in the same window. Is it the hour, not the method? |
 | **Always long / always short** | In a market that went up all year, any "buy the dip" recipe looks good. |
@@ -115,12 +115,11 @@ See a complete run on synthetic data in [`examples/synthetic_guru`](../examples/
 - **Choosing after the fact.** Examples picked once the outcome is known; zones redrawn after the
   move; "backtests" done by scrolling the chart; losing night trades removed "because I don't trade
   at night". None of this is evidence.
-- **Win rate by days instead of trades.** "92% winning" can mean 12 positive days out of 13 with
+- **Win rate by days instead of trades.** A "90%+ winning" claim can count positive days, with
   many losing trades inside them. Breakeven days get sold as "no losing day". Always ask: per trade?
 - **Breakeven inflating the win rate.** Moving the stop to entry early turns many losers into zeros
   and makes the hit rate look high, without improving the result.
-- **Small samples.** 36 trades with a 64% win rate have a 95% confidence interval from roughly 48% to
-  78%. A good month proves very little; neither does a bad one.
+- **Small samples.** A few dozen trades with a high win rate still have a very wide confidence interval. A good month proves very little; neither does a bad one.
 - **Regime.** A rising market makes every long look smart. Compare with "always long" at the same
   instants, and test a different period.
 - **Look-ahead.** Using a swing, a zone or a daily candle before it was known.

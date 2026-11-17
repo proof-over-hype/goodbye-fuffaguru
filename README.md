@@ -73,16 +73,16 @@ They say nothing about anyone's intentions. Full write-up: [docs/CASE_STUDIES.md
   all closed by rules written before the numbers.
 - **The rules taught did not beat chance.** Real zones hit the target about as often as fake ones
   (e.g. 17.8% vs 15.6%, p = 0.24; trades outside any zone: 22.3%).
-- **"90-100% win rate" counted days, not trades.** 92% was 12 positive days out of 13; the trade-level
-  journal said 72%. A monthly "21%" was the sum of three accounts' percentages.
-- **The result per trade shrank** in the only honest journal we found: about +1.4 R, +0.7 R, +0.2 R in six weeks.
+- **"90%+ win rate" counted green days, not trades.** The trade-level journal was markedly lower. A
+  monthly percentage was the sum of several accounts' percentages.
+- **The result per trade shrank** in the only honest journal we found: a shrinking per-trade result over a few weeks.
 - **Taught one way, traded another.** Live: other instruments, other hours, wider stops, an entry
   confirmation not in the lessons.
-- **Live results:** one period +13 R on 36 trades; the following period about zero on 41.
-- **Right direction, wrong stop.** Three live trades out of three were stopped out, while the target was
-  reached later in all of them: the stops sat inside normal noise, just under untaken highs.
+- **Live results:** one period clearly positive, the following period about flat.
+- **Right direction, wrong stop.** A handful of live trades in one session were all stopped out, while the target was
+  reached later in all of them: the stops sat inside normal noise, just beyond untaken highs.
 - **Examples are chosen afterwards.** Lessons showed almost no real losses.
-- **Promises vs observation.** 15-20 trades a week promised; zero trades in six hours of live streaming.
+- **Promises vs observation.** several trades a week promised; none taken in a full day of live streaming.
 - **A wider stop improves everything — even random levels.** It raised the share of targets hit from
   about 18% to about 30%, identically on fake levels and at other hours: the trader's "place" was not the reason.
 
