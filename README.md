@@ -112,7 +112,7 @@ fuffaguru/            Python package (MIT)
   nulltests.py        random direction, fake levels, bootstrap, p-values, costs in R
   report.py           the "Reality Check" markdown report
   prompts/            LLM prompt templates: trades, rules, recipe
-docs/                 METHOD, RED_FLAGS, CASE_STUDIES, LESSONS, CAPTURE, LAUNCH
+docs/                 METHOD, RED_FLAGS, CASE_STUDIES, LESSONS, CAPTURE
 examples/             synthetic example + trades CSV template
 .claude/              Claude Code commands and sub-agents;  CLAUDE.md: rules for the agent
 tests/                pytest (python -m pytest)

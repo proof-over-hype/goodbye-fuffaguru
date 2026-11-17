@@ -129,7 +129,7 @@ fuffaguru/            pacchetto Python (MIT)
   nulltests.py        direzione a caso, livelli finti, bootstrap, p-value, costi in R
   report.py           il rapporto «Reality Check» in markdown
   prompts/            modelli di prompt: operazioni, regole, ricetta
-docs/                 METHOD, RED_FLAGS, CASE_STUDIES, LESSONS, CAPTURE, LAUNCH (in inglese)
+docs/                 METHOD, RED_FLAGS, CASE_STUDIES, LESSONS, CAPTURE (in inglese)
 examples/             esempio sintetico + modello del CSV delle operazioni
 .claude/              comandi e sotto-agenti di Claude Code;  CLAUDE.md: le regole per l'agente
 tests/                pytest (python -m pytest)
