@@ -12,6 +12,28 @@ lezioni che abbiamo imparato facendolo noi.
 
 ![Dai video di un guru a un verdetto (dati sintetici)](docs/assets/flow.png)
 
+## Costruito su dati veri, non su opinioni
+
+Non è uno script fatto in un fine settimana. Nasce da mesi di lavoro quotidiano in un laboratorio
+privato di ricerca quantitativa, che sviluppa, mette alla prova e fa girare in demo le proprie
+strategie con le stesse regole che trovi qui.
+
+| Cosa abbiamo analizzato | Quanto |
+|---|---|
+| Video e dirette di trading trascritti e analizzati | **circa 290 ore** (≈ 800 video da oltre 70 canali YouTube, più dirette su TikTok e YouTube e reel di Instagram) |
+| Idee di strategia estratte da quel materiale | **circa 300**: solo **18** erano abbastanza precise da poterle provare |
+| Idee che hanno retto ai costi veri e ai controlli contro il caso | **nessuna** |
+| Trader seguiti dal vivo, operazione per operazione | diversi, su mercati diversi (oro, indici USA, Forex), con le operazioni dal vivo verificate **tick per tick** sui dati dei future |
+| Ricette preregistrate costruite da quello che quei trader insegnano e fanno | **più di una dozzina**, tutte chiuse da regole scritte *prima* dei numeri |
+
+Ogni prova usa i costi veri del broker, ingressi a caso negli stessi istanti, livelli finti, un
+periodo di conferma successivo e uno strumento affine. Il metodo completo è in
+[docs/METHOD.md](docs/METHOD.md), i casi anonimi in [docs/CASE_STUDIES.md](docs/CASE_STUDIES.md).
+
+**Perché lo pubblichiamo:** troppe persone pagano corsi, gruppi di segnali e «conti gestiti» venduti
+con le schermate delle giornate vincenti. Poche ore con questi strumenti dicono più di qualsiasi
+testimonianza. L'obiettivo è semplice: **verifica prima di pagare**.
+
 ## Perché esiste
 
 I social sono pieni di trader che vendono corsi, gruppi di segnali e «mentorship» con il 90-100% di

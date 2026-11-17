@@ -12,6 +12,27 @@ the tools and the lessons we learned doing exactly that.
 
 ![From a guru's videos to a verdict (synthetic data)](docs/assets/flow.png)
 
+## Built on real data, not opinions
+
+This is not a weekend script. It comes out of months of daily work in a private quantitative
+research lab that develops, tests and paper-trades its own strategies with the same rules used here.
+
+| What we went through | How much |
+|---|---|
+| Trading videos and live streams transcribed and analyzed | **about 290 hours** (≈ 800 videos from 70+ YouTube channels, plus TikTok and YouTube live sessions and Instagram reels) |
+| Strategy ideas extracted from that material | **about 300** — only **18** were precise enough to be tested |
+| Ideas that survived real costs and chance-controls | **none** |
+| Traders followed live, trade by trade | several, on different markets (gold, US indices, FX), with their live trades checked **tick by tick** against futures data |
+| Preregistered recipes built from what those traders teach and do | **more than a dozen** — all closed by rules written *before* the numbers |
+
+Every test uses real broker costs, random entries at the same instants, fake levels, a later
+confirmation period and a related instrument. The full method is in [docs/METHOD.md](docs/METHOD.md),
+the anonymous cases in [docs/CASE_STUDIES.md](docs/CASE_STUDIES.md).
+
+**Why we publish it:** too many people pay for courses, signal groups and "managed accounts" sold with
+screenshots of winning days. A few hours with these tools tell you more than any testimonial.
+The goal is simple: **check before you pay**.
+
 ## Why it exists
 
 Social media are full of traders selling courses, signal groups and "mentorships" with 90-100% win
