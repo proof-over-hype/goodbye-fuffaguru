@@ -1,0 +1,46 @@
+{
+  "data_dir": "data",
+  "cookies": {
+    "browser": null,
+    "browser_profile": null,
+    "file": "secrets/cookies.txt"
+  },
+  "watch": {
+    "interval_seconds": 60,
+    "segment_seconds": 180,
+    "end_checks": 3,
+    "end_check_interval_seconds": 60,
+    "retry_seconds": 20,
+    "stream_missing_alert_after": 3,
+    "stale_lock_seconds": 600,
+    "youtube_live_from_start": false
+  },
+  "download": {
+    "max_height": 720,
+    "default_limit": 50
+  },
+  "transcription": {
+    "model": "small",
+    "language": null,
+    "device": "auto",
+    "compute_type": "default"
+  },
+  "frames": {
+    "every_seconds": 2,
+    "sheet_every_seconds": 10,
+    "sheet_cols": 4,
+    "sheet_rows": 4
+  },
+  "retention": {
+    "delete_media_after_transcription": true,
+    "delete_frames_after_analysis": true,
+    "key_frames": 6,
+    "min_free_gb": 20
+  },
+  "notify": {
+    "desktop": true,
+    "telegram": false,
+    "telegram_token_env": "GFG_TELEGRAM_TOKEN",
+    "telegram_chat_env": "GFG_TELEGRAM_CHAT_ID"
+  }
+}

@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "goodbye-fuffaguru"
+version = "0.1.0"
+description = "Goodbye FuffaGuru - Reality-check your trading guru: capture what social-media traders teach and show, test it on real prices, and see if it beats chance."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Goodbye FuffaGuru contributors" }]
+requires-python = ">=3.9"
+keywords = ["trading", "backtesting", "finfluencer", "scam-detection", "transcription", "whisper", "claude-code", "quant"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Education",
+    "Topic :: Office/Business :: Financial :: Investment",
+]
+dependencies = ["numpy>=1.23", "pandas>=1.5"]
+
+[project.optional-dependencies]
+capture = ["yt-dlp>=2024.1.1", "faster-whisper>=1.0", "pillow>=9"]
+yaml = ["pyyaml>=6"]
+desktop = ["plyer>=2.1"]
+dev = ["pytest>=7"]
+all = ["yt-dlp>=2024.1.1", "faster-whisper>=1.0", "pillow>=9", "pyyaml>=6", "pytest>=7"]
+
+[project.scripts]
+fuffaguru = "fuffaguru.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["fuffaguru*"]
+
+[tool.setuptools.package-data]
+fuffaguru = ["prompts/*.md"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

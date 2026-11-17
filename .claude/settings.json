@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m fuffaguru:*)",
+      "Bash(.venv/bin/python -m fuffaguru:*)",
+      "Bash(.venv/Scripts/python -m fuffaguru:*)",
+      "Bash(.venv/bin/python -m pytest:*)",
+      "Bash(.venv/Scripts/python -m pytest:*)",
+      "Bash(python -m pytest:*)",
+      "Bash(python scripts/bootstrap.py:*)",
+      "Bash(ffmpeg -version)",
+      "Bash(ffprobe -version)"
+    ],
+    "deny": [
+      "Read(./secrets/**)",
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./**/cookies*.txt)"
+    ]
+  }
+}

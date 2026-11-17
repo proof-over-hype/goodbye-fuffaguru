@@ -1,0 +1,12 @@
+# Core (analysis, tests)
+numpy>=1.23
+pandas>=1.5
+pyyaml>=6
+pytest>=7
+
+# Capture (download, live recording, transcription, key frames)
+yt-dlp>=2024.1.1
+faster-whisper>=1.0
+pillow>=9
+
+# External programs, not installed by pip: ffmpeg and ffprobe (https://ffmpeg.org)

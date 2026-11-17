@@ -1,0 +1,58 @@
+# --- Personal data: NEVER commit -------------------------------------------
+# Cookies, tokens, settings with your choices
+secrets/
+cookies*.txt
+*.cookies
+.env
+.env.*
+config/settings.json
+.claude/settings.local.json
+
+# Everything captured or produced from other people's content
+data/
+media/
+downloads/
+captures/
+examples/synthetic_guru/output/
+
+# Media and frames, wherever they are
+*.mp4
+*.mkv
+*.webm
+*.flv
+*.ts
+*.m4a
+*.mp3
+*.wav
+*.opus
+*.aac
+*.mov
+*.part
+*.ytdl
+frames/
+sheets/
+
+# Market data files (bring your own; licences usually forbid sharing)
+*.parquet
+*.scid
+*.csv
+!examples/trades_template.csv
+
+# --- Python -----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# --- Systems ------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
