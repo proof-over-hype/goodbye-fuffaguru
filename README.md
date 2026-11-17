@@ -22,7 +22,7 @@ you can do the same before you pay anyone, and so that you don't fool yourself e
 ## Quickstart with Claude Code (5 lines)
 
 ```
-git clone https://github.com/OWNER/goodbye-fuffaguru && cd goodbye-fuffaguru
+git clone https://github.com/proof-over-hype/goodbye-fuffaguru && cd goodbye-fuffaguru
 claude                                            # open Claude Code in this folder
 /setup                                            # checks Python, ffmpeg, yt-dlp; creates .venv; asks which browser you are logged in with
 /follow-trader https://www.tiktok.com/@someone    # history + live watcher (every 60 s)

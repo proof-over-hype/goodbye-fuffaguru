@@ -23,7 +23,7 @@ ingannare sé stesso.
 ## Avvio rapido con Claude Code (5 righe)
 
 ```
-git clone https://github.com/OWNER/goodbye-fuffaguru && cd goodbye-fuffaguru
+git clone https://github.com/proof-over-hype/goodbye-fuffaguru && cd goodbye-fuffaguru
 claude                                            # apre Claude Code nella cartella
 /setup                                            # controlla Python, ffmpeg, yt-dlp; crea .venv; chiede da quale browser leggere il tuo accesso
 /follow-trader https://www.tiktok.com/@qualcuno   # storico + sorveglianza delle live (ogni 60 s)
