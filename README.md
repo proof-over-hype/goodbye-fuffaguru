@@ -10,6 +10,8 @@ Before you give your money to a trading "guru" from TikTok, YouTube or Instagram
 whether what they teach and show actually beats chance. This repository gives anyone the method,
 the tools and the lessons we learned doing exactly that.
 
+![Demo: the synthetic example run in a terminal (synthetic data only)](docs/assets/demo.gif)
+
 ![From a guru's videos to a verdict (synthetic data)](docs/assets/flow.png)
 
 ## Built on real data, not opinions
